@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="prime flex">
+        <div class="left bg-color">
+            <div class="first color border">
+                <div class="cross">
+                    <img class="cross invert pointer" src="SVG/cross.svg" alt="">
+                </div>
+                <ul>
+                    <li class="flex invert"><img src="SVG/logo.svg" alt="logo"></li>
+                    <li class="flex invert"><img src="SVG/home.svg" alt="home">Home</li>
+                    <li class="flex invert"><img src="SVG/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+
+            <div class="second color border">
+
+                <div class="lib flex invert">
+                    <img src="SVG/lib.svg" alt="library">
+                    <h4>Your Library</h4>
+
+                    <!-- <img class="plus" src="SVG/plus.svg" alt="plus"> -->
+                </div>
+
+
+                <div class="playList flex invert scroll-content">
+
+
+                    <ul>
+
+                        <!-- <li class="M flex"><img src="SVG/music.svg" alt="home">
+                            <div class="info">
+                                <div>Song :</div>
+                                <div>Artist :</div>
+                            </div>
+                            <div class="playNow flex">
+                            <span>Play <br> Now</span>
+                            <img src="SVG/play2.svg" alt="play"></div>
+                        </li> -->
+
+                    </ul>
+
+
+
+
+                </div>
+
+                <div class="footer invert">
+                    <br>
+                    <h5>legal privacy policy cookies</h5>
+                    <br>
+                    <h5>About Abs accessibility</h5>
+                    <br>
+                    <h5>Made by Prateek</h5>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="right bg-color">
+            <div class="right_main nav-color">
+                
+                    
+                    <div class="nav grey flex">
+                        <div class="nav1">
+
+                            <img class="invert pointer ham" src="SVG/ham.svg" alt="burger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                    </div>
+
+
+
+                    <div class="nav2 flex">
+                        <button class="Signup transparent-button">Sign up</button>
+                        <button class="round login">Log In</button>
+                    </div>
+                </div>
+
+                <div class="music">
+                    <h2 class="invert">Spotify Playlist</h2>
+
+                    <div class="cardcontainer flex justify">
+
+                        <div class="card color shadow">
+                            <div class="play cardbutton">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+                                    <circle cx="24" cy="24" r="20" fill="#1fdf64" />
+                                    <path fill="black" d="M20,32V16l12,8L20,32z" />
+                                </svg>
+
+                        </div>
+                            <img src="IMG/1.jpeg" alt="cover">
+                            <br>
+                            <h4>Happy Hits !</h4>
+                            <h5>Hits to boost your mood and fill you with...</h5>
+                        </div>
+
+                        <div class="card color">
+                            <img src="IMG/2.jpeg" alt="cover">
+                            <br>
+                            <h4>Happy Hits !</h4>
+                            <h5>Hits to boost your mood and fill you with...</h5>
+                        </div>
+
+                        <div class="card color">
+                            <img src="IMG/3.jpeg" alt="cover">
+                            <br>
+                            <h4>Happy Hits !</h4>
+                            <h5>Hits to boost your mood and fill you with...</h5>
+                        </div>
+
+                        <div class="card color">
+                            <img src="IMG/4.jpeg" alt="cover">
+                            <br>
+                            <h4>Happy Hits !</h4>
+                            <h5>Hits to boost your mood and fill you with...</h5>
+                        </div>
+
+                        <div class="card color">
+                            <img src="IMG/5.jpeg" alt="cover">
+                            <br>
+                            <h4>Happy Hits !</h4>
+                            <h5>Hits to boost your mood and fill you with...</h5>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="media flex pointer">
+                        <div class="playBar">
+                            <div class="circle"></div>
+                        </div>
+
+                        <div class="m flex">
+                            <div class="songInfo "></div>
+                            <div class="songTime "></div>
+                        </div>
+
+                        <div class="btns flex scroll pointer">
+                            <div id="backward"><img src="SVG/backward.svg" alt="backward"></div>
+                            <div id="play"><img src="main copy.svg" alt="play"></div>
+                            <div id="forward"><img src="SVG/forward.svg" alt="forward"></div>
+                        </div>
+                        <div class="vol flex">
+                            <img src="SVG/volume.svg" alt="volume">
+                            <div class="range">
+                                <input type="range" name="vol" >
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="logic.js"></script>
+</body>
+
+</html>

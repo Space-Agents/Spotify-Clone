@@ -1,0 +1,92 @@
+.flex{
+    display: flex;
+}
+
+.justify{
+    justify-content: center;
+}
+
+.border{
+    border-radius: 5px;
+    margin: 7px;
+}
+
+.invert{
+    filter : invert(1)
+}
+
+.color{
+    
+    background-color: #121212;
+}
+
+.bg-color{
+    background-color: black;
+}
+
+.round{
+    border-radius: 30px;
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+}
+
+.nav-color{
+    background-image: conic-gradient( #1f1f1f,rgb(158 41 41),black);
+}
+
+.white{
+    border: 2px solid white;
+}
+
+.grey{
+    background-image:linear-gradient(black, #131313)
+}
+
+.shadow{
+    box-shadow:2px 2px 12px 2px #000000;
+}
+/* 
+.scroll:hover{
+    opacity: 1;
+    
+} */
+
+.pointer{
+    cursor: pointer;
+}
+
+
+/* Dark scrollbar style */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #483c3c; /* Color of the scroll thumb */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #000000; /* Color of the scroll thumb on hover */
+}
+
+
+/* Hide the scrollbar thumb by default */
+.scroll-content::-webkit-scrollbar-thumb {
+    opacity: 0;
+    transition: opacity 0.5s; /* Add transition for smooth effect */
+}
+
+/* Show the scrollbar thumb when hovering over the scrollable area */
+.scroll-content:hover::-webkit-scrollbar-thumb {
+    opacity: 1;
+}
